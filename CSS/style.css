@@ -121,7 +121,7 @@ body{
     text-decoration: none;
 }
 
-#atg article > section > h4:hover > a{
+#atg article > section > h4 > a:hover{
     color: #fff;
     background-color: #000;
     border: 1px solid #fff;
@@ -211,6 +211,13 @@ aside{
     position: fixed;
 }
 
+#touro_sec2{
+    width: 220px;
+    height: 500px;
+    margin-left: -30px;
+    position: absolute;
+}
+
 #page_sec{
     display: flex;
 }
@@ -296,6 +303,51 @@ aside{
     transition: .1s;
 }
 
+#nav_sec2{
+    border-left: 1px solid #fff;
+    top: 140px;
+    right: 0;
+    width: 160px;
+    height: 440px;
+    position: absolute;
+}
+
+#nav_sec2 p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+    margin-left: 12px;
+    margin-right: 20px;
+}
+
+#nav_sec2 ul{
+    list-style-type: none;
+    margin-left: -20px;
+}
+
+#nav_sec2 li{
+    display: flex;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#nav_sec2 ul > li > a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+#nav_sec2 ul > li > a:hover{
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    transition: .1s;
+}
+
 .carnes_sec a{
     text-decoration: none;
 }
@@ -307,6 +359,40 @@ aside{
 }
 
 .carnes_sec a > figcaption{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.refri a{
+    text-decoration: none;
+}
+
+.refri a > img{
+    width: 190px;
+    height: 156px;
+    border-radius: 5px;
+}
+
+.refri a > figcaption{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.vinhos a{
+    text-decoration: none;
+}
+
+.vinhos a > img{
+    width: 190px;
+    height: 180px;
+    border-radius: 5px;
+}
+
+.vinhos a > figcaption{
     font-size: 16px;
     color: #fff;
     text-decoration: none;
@@ -340,9 +426,36 @@ aside{
     padding: 5px;
 }
 
-.preco{
-    background-color: #ffe838;
+.produto{
+    background-color: #C6AA6A;;
     color: #000;
+}
+
+.preco{
+    background-color: #fefefe;
+    color: #000;
+}
+
+#rodizio{
+    color: #fff;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rodizio header{
+    text-align: center;
+    font-size: 30px;
+}
+
+#rodizio h2{
+    font-size: 18px;
+    text-indent: 30px;
+}
+
+#rodizio h3{
+    font-size: 15px;
+    text-indent: 40px;
 }
 
 #rodape{
